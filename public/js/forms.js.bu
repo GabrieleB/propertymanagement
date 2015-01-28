@@ -1,0 +1,90 @@
+jQuery(document).ready(function($) {
+
+	jQuery("#addItem").on("click", function(event) {
+		   
+		event.preventDefault();
+
+		var id = makeid();
+
+		var node = '<div class="form-group"><input type="text" class="form-control col-xs-8" name="Financials[' + id + '][field]"><input type="text" class="form-control col-xs-3 value" name="Financials[' + id + '][value]"><input type="text" class="form-control hidden" name="Financials[' + id + '][idval]" value="' + id + '"><a href="#" class="removeItem"><i class="fa fa-times-circle col-xs-1"></i></a></div>';
+
+		$(this).parent().before(node);
+
+		$('.value').each( function() {
+		$(this).keyup( function() {
+			calculateSum();
+		});
+	}); 
+
+	});
+
+	jQuery('form').on("click", ".removeItem", function(event) {
+
+		event.preventDefault();
+
+		jQuery(this).parent().remove();
+				  
+	});
+
+	/******************************** ****/
+
+	var dropzone = new Dropzone('#fileupload', {url: $('#fileupload').attr('action'), 
+
+		init: function() {
+			var thisDropzone = this;
+
+			$.getJSON($('#fileupload').attr('action'), function(data) {
+				$.each(data, function(key, value) {
+					var mockFile = { name: value.name, size: value.size };
+					thisDropzone.options.addedfile.call(thisDropzone, mockFile);
+					thisDropzone.files.push(mockFile);
+					thisDropzone.options.thumbnail.call(thisDropzone, mockFile,  '/images/' + $('#fileupload').attr('action').split('/')[2]  + "/" + value.name);
+				});
+			});
+		},
+		addRemoveLinks: true,
+	    	removedfile: function(file) {
+			var filePath = '/upload/delete/' + $('#fileupload').attr('action').split('/')[2] + "/" + file.name;
+			$.get(filePath)
+			var _ref;
+			return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;
+		},
+	    	acceptedFiles: "image/*"
+
+	});
+
+	/*************** ***********************/
+
+	$('.value').each( function() {
+		$(this).keyup( function() {
+			calculateSum();
+		});
+	});
+
+
+	/************ *********************/
+
+	function makeid()
+	{
+		    var text = "";
+		    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+		    for( var i=0; i < 5; i++ )
+		    	text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+	            return text;
+	}
+
+	function calculateSum() {
+		var sum = 0;
+
+		$('.value').each( function() {
+	        	if(!isNaN(this.value) && this.value.length!=0) {
+			        sum += parseFloat(this.value);
+		        }
+		});
+
+		      $(".total").html(sum.toFixed(2));
+	}
+
+});

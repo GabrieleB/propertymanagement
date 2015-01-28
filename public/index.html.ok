@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Prova Property Management</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- jQuery load -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/plugin.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Revolutions slider -->
+<link href="rs-plugin/css/settings.css" rel="stylesheet">
+<link href="rs-plugin/css/captions.css" rel="stylesheet">
+		<style type="text/css" media="all"><!--
+.ds1 /*agl rulekind: base;*/ { color: #fff; }
+--></style>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+<header id="header">
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 top-header-left">
+							<span><strong>Contact:</strong> </span><span class="ds1"><span class="ds1"><span><a href="mailto:test@prova.com">test@prova.com</a></span></span></span><span><a href="mailto:test@prova.com"> </a></span><span><strong> - Phone:</strong> +1 (305) 756-7589 Ciao </span>
+        </div><!-- // .top-header-left -->
+
+        <div class="col-lg-6 col-md-6 text-right top-header-right">
+
+          <ul class="social list-unstyled pull-right">
+            <li class="facebook"><a data-toggle="tooltip" data-placement="bottom" title="Facebook Page" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li class="twitter"><a data-toggle="tooltip" data-placement="bottom" title="Follow us on Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li class="linkedin"><a data-toggle="tooltip" data-placement="bottom" title="LinkedIn" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul><!-- // .social -->
+
+        </div><!-- // .top-header-right -->
+
+      </div><!-- // .row -->
+    </div><!-- // .container -->
+  </div><!-- // .top-header -->
+
+  <div class="main-header">
+    <div class="container logo-area">
+
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="http://www.placehold.it/240x54" alt="">
+        </a>
+
+        <span class="site-title">Property Management</span>
+
+      </h1><!-- // #logo -->
+
+      <div id="mainmenu" class="site-menu visible-lg visible-md right-menu">
+
+        <div class="left-menu hide">
+        </div><!-- // .left-menu.hide -->
+
+        <nav>
+          <ul class="menu sf-menu list-unstyled clearfix">
+            <li class="current"><a href="index.html">Home</a></li>
+
+            <li><a href="preconstructions.html">Properties</a></li>
+            
+	    <!-- <li><a href="policy.html">Policy</a></li> -->
+
+            <li><a href="infos.html">About Miami</a></li>
+
+            <li><a href="profile.html">About us</a></li>
+
+            <li><a href="contact.html">Contacts</a></li>
+
+	    <li><a href="/login"> Reserved Area </a></li>
+
+          </ul>
+        </nav><!-- // nav -->
+      </div><!-- // .site-menu.right-menu -->
+
+      <!-- Repsonsive Menu Trigger -->
+      <a class="pull-right responsive-menu visible-sm visible-xs" href="#panel-menu" id="responsive-menu"><i class="fa fa-bars"></i></a>
+      <!-- End Reposnvie Menu Trigger -->
+
+    </div><!-- // .container -->
+  </div><!-- // .main-header -->
+</header><!-- // header -->
+
+<div class="rev_slider_wrapper">
+  <div id="rev_slider" class="rev_slider" style="display:none;">
+    <ul>
+      <!-- SLIDE  -->
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/001.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <!-- SLIDE  -->
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/002.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/003.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/004.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/005.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/006.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/007.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/008.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/009.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="300">
+        <img src="slideshow/010.jpg" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+      </li>
+    </ul>
+    <div class="tp-bannertimer">
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+var revapi1;
+jQuery(document).ready(function() {
+
+	if (jQuery.fn.cssOriginal != undefined)
+		jQuery.fn.css = jQuery.fn.cssOriginal;
+
+	if(jQuery('#rev_slider').revolution == undefined)
+		revslider_showDoubleJqueryError('#rev_slider');
+	else
+		revapi1 = jQuery('#rev_slider').show().revolution(
+		{
+			delay:3000,
+			startwidth:1170,
+			startheight:700,
+			hideThumbs:200,
+
+			thumbWidth:100,
+			thumbHeight:50,
+			thumbAmount:3,
+
+			navigationType:"bullet",
+			navigationArrows:"solo",
+			navigationStyle:"round",
+
+			touchenabled:"on",
+			onHoverStop:"on",
+
+			navigationHAlign:"center",
+			navigationVAlign:"bottom",
+			navigationHOffset:0,
+			navigationVOffset:20,
+
+			soloArrowLeftHalign:"left",
+			soloArrowLeftValign:"center",
+			soloArrowLeftHOffset:20,
+			soloArrowLeftVOffset:0,
+
+			soloArrowRightHalign:"right",
+			soloArrowRightValign:"center",
+			soloArrowRightHOffset:20,
+			soloArrowRightVOffset:0,
+
+			shadow:0,
+			fullWidth:"off",
+			fullScreen:"off",
+
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+
+			shuffle:"off",
+
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			startWithSlide:0,
+			videoJsPath:"js/revslider/js/videojs/",
+			fullScreenOffsetContainer: ""	
+		});
+
+});	//ready
+</script>
+
+<section id="store-overview" class="top-30">
+	<div class="container">
+
+  <div class="title-block"><br>
+    <h3 class="title-heading">Pre Constructions</h3>
+    <span class="line"></span>
+    <span>New Developement Projects Exclusively Represented</span>
+  </div><!-- // .title-block -->
+
+		<div class="row">
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="pre/saintregis.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>Saint Regis, Bal Harbour</h6>
+					</div><!-- // .infobox-content -->
+					<a href="preconstructions.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="pre/grove.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>Grove at Grand Bay, Coconut Grove</h6>
+					</div><!-- // .infobox-content -->
+					<a href="preconstructions.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="pre/thebond.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>The Bond, Downtown Miami</h6>
+					</div><!-- // .infobox-content -->
+					<a href="preconstructions.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="pre/saintregis.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>Biscayne Beach, Midtown Miami</h6>
+					</div><!-- // .infobox-content -->
+					<a href="preconstructions.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+		</div>
+	</div>
+</section>
+
+<section id="store-overview" class="top-30">
+	<div class="container">
+
+  <div class="title-block"><br>
+    <h3 class="title-heading">Vacation Rentals in Miami Beach</h3>
+    <span class="line"></span>
+    <span>Find your perfect vacation rental</span>
+  </div><!-- // .title-block -->
+
+		<div class="row">
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="short/936pennsylvenia/000.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>936 Pennsylvania Ave - 1 Bedroom</h6>
+					</div><!-- // .infobox-content -->
+					<a href="short.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="short/158collins/000.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>158 Collins Ave - 1 Bedroom</h6>
+					</div><!-- // .infobox-content -->
+					<a href="short.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="short/1035west/000.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>1035 West Ave - 1 Bedroom</h6>
+					</div><!-- // .infobox-content -->
+					<a href="short.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+			<div class="col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+				<div class="infobox">
+					<div class="infobox-image">
+						<div class="infobox-mark"></div>
+						<img src="short/710washington/000.jpg" alt="">
+					</div><!-- // .infobox-image -->
+
+					<div class="infobox-content">
+						<h6>710 Washington Ave - Studio</h6>
+					</div><!-- // .infobox-content -->
+					<a href="short.html" class="button orange">More info<i class="fa fa-mail-forward"></i></a>
+				</div><!-- // .infobox -->
+			</div><!-- // end column -->
+
+		</div>
+	</div>
+</section><!-- // end section -->
+
+<footer id="footer">
+
+   <div id="breadcrumb">
+    <div class="container">
+      <ul class="clearfix list-unstyled">
+        <li><span>Home</span></li>
+      </ul><!-- // .list-unstyled -->
+    </div><!-- // .container -->
+  </div><!-- // #breadcrumb -->
+
+  <div id="footer-1" class="widget-area">
+    <div class="container">
+      <div class="row">
+
+        <div class="widget quick-contact col-lg-9 col-md-9 bottom-30-sm bottom-30-xs">
+          <div class="widget-title">
+            <h5>Quick Contact</h5>
+          </div><!-- // .widget-title -->
+
+          <p>Feel free to contact us for any further informations needed.</p>
+
+          <ul class="list-unstyled contact-field-list clearfix">
+            <li><i class="fa fa-home"></i>123 Some Street, Miami, Florida, 33138</li>
+            <li><i class="fa fa-envelope"></i><a href="mailto:test@prova.com">test@prova.com</a></li>
+            <li><i class="fa fa-mobile"></i> +1 (305) 487-4879 </li>
+          </ul><!-- // .contact-field-list -->
+
+        </div><!-- // .widget -->
+
+        <div class="widget col-lg-3 col-md-3 bottom-30-sm bottom-30-xs">
+          <img src="http://www.placehold.it/240x54" alt="">
+          <p class="top-10">Your Premium Realtor.</p>
+          <img src="images/miamidreams.png" alt="">
+        </div><!-- // .widget -->
+
+      </div><!-- // .row -->
+    </div><!-- // .container -->
+  </div><!-- // .widget-area -->
+  
+  <div class="credit">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6">
+          <span>Web Design by <a href="http://youseememiami.com">YOUSEEME MIAMI</a></span>
+        </div><!-- // -->
+
+        <div class="col-lg-6 col-md-6 text-right">
+          <ul class="list-unstyled">
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div><!-- // -->
+
+      </div><!-- // .row -->
+    </div><!-- // .container -->
+  </div><!-- // .credit -->
+</footer><!-- // #footer -->
+
+<!-- Core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/bootstrap.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/fitvids.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/mediaelement.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/easypiechart.js"></script>
+<script src="js/caroufredsel.js"></script>
+<script src="js/jpanelmenu.js"></script>
+<script src="js/magnific.js"></script>
+<script src="js/twitter/tweet.js"></script>
+<script src="js/functions.js"></script>
+
+<!-- Revolutions slider -->
+<script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+</body>
+</html>

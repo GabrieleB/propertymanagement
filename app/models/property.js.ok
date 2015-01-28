@@ -1,0 +1,75 @@
+var mongoose =
+        require('mongoose');
+
+var bcrypt = require('bcrypt-nodejs');
+
+var propertySchema = mongoose.Schema({
+	Property:	  	  { type: String, required: true, index: {unique: true} },
+	Password:        	  { type: String, required: true },
+	Admin:			  { type: Boolean, default: false },
+
+	Owner : {
+		Name:                     { type: String, required: true },
+		Surname: 	 	  { type: String, required: true },
+		Address: 		  String,
+		City:			  String,
+		State:			  String,
+		Zip:			  String,
+		Country:	          String,
+
+		Tel:			  String,
+		Email:			  String,
+
+		Note:			  String,
+	},
+
+	Location: {
+		AddressUnit:              { type: String, required: true },
+		City                      String,
+		State                     String,	
+		Zip                       String,
+		Country                   String,
+
+	},
+
+	Info: {
+		IdPasswdWifi:		  String,
+		ManagementRef:		  String,
+		FrontDeskTel:		  String,
+		Bedrooms:		  { type: String, default: '1' },
+		Bathrooms		  String,
+		Amenities		  String,
+		Description		  String,
+	},
+
+	Rates: {
+		LowSeason: {
+			Day		  { type: Number, min: 0 },
+			Week              { type: Number, min: 0 },
+			Month		  { type: Number, min: 0 },
+		},
+		HighSeason: {
+			Day		  { type: Number, min: 0 },
+			Week              { type: Number, min: 0 },
+			Month		  { type: Number, min: 0 },
+		},
+		MediumSeason: {
+			Day		  { type: Number, min: 0 },
+			Week              { type: Number, min: 0 },
+			Month		  { type: Number, min: 0 },
+		},
+	},
+
+	Visible: 			  { type: Boolean, default: true },
+});
+ 
+ 
+ 
+userSchema.methods.generateHash = function(password) {
+	return bcrypt.hashSync(Password, bcrypt.genSaltSync(8), null);
+};
+ 
+userSchema.methods.validPassword = function(password) {
+	return bcrypt.compareSync(Password, this.local.password);
+}
+module.exports = mongoose.model('Property', propertySchema);
